@@ -79,6 +79,6 @@ export default {}
 ### Options
 |    Property    |    Description   |   type   |	default	|
 | -----------------  | ---------------- | :--------: | :----------: |
-| vantaId | #id of your vanta element | String | vanta-1 |
+| vantaId | #id of your vanta element | String | vanta-bg |
 | effect         | many | String | waves |
 | options  | Each effect has its own specific parameters. Explore them all at www.vantajs.com! | Object | |

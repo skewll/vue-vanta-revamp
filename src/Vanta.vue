@@ -23,7 +23,7 @@ export default {
         },
         vantaId: {
             type: String,
-            default: () => 'vanta-1'
+            default: () => 'vanta-bg'
         }
     },
     beforeMount() {
