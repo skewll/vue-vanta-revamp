@@ -1,0 +1,32 @@
+{
+  "name": "vue-vanta-revamp",
+  "version": "0.0.0",
+  "description": "> Animated website backgrounds in a few lines of code.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skewll/vue-vanta-revamp.git"
+  },
+  "keywords": [
+    "vue",
+    "vanta-vue",
+    "vantajs",
+    "3d",
+    "nuxt",
+    "vue-vanta",
+    "nuxt3",
+    "vue3",
+    "vuex",
+    "animated",
+    "backgroundanimation"
+  ],
+  "author": "skewll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skewll/vue-vanta-revamp/issues"
+  },
+  "homepage": "https://github.com/skewll/vue-vanta-revamp#readme"
+}
