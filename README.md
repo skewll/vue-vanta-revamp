@@ -1,6 +1,6 @@
 # vue-vanta-revamp - 2024 revamp of vue-vanta npm
 
-> Add animated vanta.js backgrounds to vue and nuxt projects ackgrounds to in a few lines of code.
+> Add animated vanta.js backgrounds to vue and nuxt projects in a few lines of code.
 
 ### How to use?
 ```bash
