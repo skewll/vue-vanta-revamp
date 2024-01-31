@@ -11,7 +11,7 @@ export default {
     props: {
         effect: {
             type: String,
-            default: () => 'birds'
+            default: () => 'waves'
         },
         options: {
             type: Object,
