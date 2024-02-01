@@ -1,6 +1,6 @@
 {
   "name": "vue-vanta-revamp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "> Add animated vanta.js backgrounds to vue and nuxt projects in a few lines of code.",
   "main": "./src/index.js",
   "scripts": {
