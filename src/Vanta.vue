@@ -42,7 +42,7 @@ export default {
             threejs.async = true
             threejs.defer = true
             threejs.id = 'three'
-            // get proper script.
+            // get proper script. (c) 2024 - McGavin Eckert - Lines 45-53
             let effectsT = ['birds','fog','waves','clouds','clouds2','globe','net','cells','dots','rings','halo']
             let effectsP = ['trunk','topology']
             if (effectsT.includes(this.effect)) {
