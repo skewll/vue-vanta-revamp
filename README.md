@@ -2,6 +2,8 @@
 
 > Add animated vanta.js backgrounds to vue and nuxt projects in a few lines of code.
 
+## vue-vanta-revamp is an updated version of vue-vanta which was orginally written and [published on npmjs.com](https://www.npmjs.com/package/vue-vanta) by [Behnam Jaberi](https://github.com/behnamjz)
+
 ### How to use?
 ```bash
 npm install vue-vanta-revamp
@@ -9,7 +11,7 @@ npm install vue-vanta-revamp
 
 ### Example for Nuxt3
 
-/components/Background.vue
+_/components/Background.vue_
 ```vue
 <template>
     <div>   
@@ -56,7 +58,7 @@ export default {
 ```
 
 
-/pages/index.vue
+_/pages/index.vue_
 ```vue
 <template>
   <div>

@@ -23,8 +23,8 @@
     "animated",
     "backgroundanimation"
   ],
-  "author": "skewll",
-  "license": "MIT",
+  "author": "McGavin Eckert",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/skewll/vue-vanta-revamp/issues"
   },
