@@ -20,7 +20,7 @@ _/components/Background.vue_
 </template>
   
 <script>
-import VVanta from 'vanta-vue-revamp';
+import VVanta from 'vue-vanta-revamp';
 export default {
     components: { VVanta },
     data() {
