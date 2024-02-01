@@ -1,2 +1,5 @@
 package-lock.json
+.git/
+.gitignore
 .github/
+.npmignore
