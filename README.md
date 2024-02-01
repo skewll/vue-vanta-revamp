@@ -2,7 +2,7 @@
 
 > Add animated vanta.js backgrounds to vue and nuxt projects in a few lines of code.
 
-## vue-vanta-revamp is an updated version of vue-vanta which was orginally written and [published on npmjs.com](https://www.npmjs.com/package/vue-vanta) by [Behnam Jaberi](https://github.com/behnamjz)
+## vue-vanta-revamp is an updated version of vue-vanta, orginally written and [published on npmjs.com](https://www.npmjs.com/package/vue-vanta) by [Behnam Jaberi](https://github.com/behnamjz)
 
 ### How to use?
 ```bash
@@ -82,5 +82,5 @@ export default {}
 |    Property    |    Description   |   type   |	default	|
 | -----------------  | ---------------- | :--------: | :----------: |
 | vantaId | #id of your vanta element | String | vanta-bg |
-| effect         | many | String | waves |
-| options  | Each effect has its own specific parameters. Explore them all at www.vantajs.com! | Object | |
+| effect         | See all effects at [vantajs.com](www.vantajs.com) | String | waves |
+| options  | Each effect has its own specific parameters. Check them out at [vantajs.com](www.vantajs.com) | Object | |
