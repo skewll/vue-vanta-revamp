@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- new methods: setupVanta, destroyVanta, changeOptions, changeEffect, resizeEffect  
+- ability to pass content via nuxt slot
+
+### Changed
+- functionality so vanta instance is destroyed when unmounting automatically.
+- README.md
+
+### Fixed
+- Bug appending scripts multiple times
+- Bug creating multiple vanta instances
+
 ## 0.1.1 - 2024-02-01
 ### Fixed
 - Typo in README.md
