@@ -10,13 +10,13 @@
 - **Efficient Script Handling**: P5 and/or THREE scripts are appended to the DOM only once, and the Three.js effect script loads only once.
 - **Versatile Customization**: Change effect options, switch effects, and resize effects with ease.
 
-|    Methods     |    Description   |   type   |	params	|
+|    Methods(params)     |    Description   |   params Type   |	Required	|
 | -----------------  | ---------------- | :--------: | :----------: |
-| setupVanta(effect, options) | sets up vanta if destroyed | Function | String,Object |
-| destroyVanta()         | destroy vanta instance | Function | N/A |
-| changeOptions(newOptions)         | change effect options | Function | Object |
-| changeEffect(newEffect, newOptions)         | change vanta effect/options | Function | String,Object |
-| resizeEffect()         | not sure how this works yet, but its here. | Function | none |   
+| **setupVanta**(*effect, options*) | Sets up Vanta.js with the specified effect and options. | String,Object | optional |
+| **destroyVanta**()         | Destroys the Vanta.js instance. | n/a | -- |
+| **changeOptions**(*newOptions*)         | Changes the effect options. | Object | required |
+| **changeEffect**(*newEffect, newOptions*)         | Changes the Vanta.js effect and options. | String,Object | required |
+| **resizeEffect**()         | Not entirely clear how this works yet, but it's available. | n/a | -- |   
 
 
 ## Installation
@@ -143,10 +143,24 @@ _/pages/index.vue_
 ```vue
 <template>
   <div>
-    <Background> You can now pass content through to a slot </Background>
+
+    <Background>Hi I will become background text via the slot</Background>
+  
     <div>
       <h1>skewll.com</h1>
     </div>
+    
+    <div>
+      <ul>
+        <li>
+          <button @click="this.$refs.vantaBackground.destroyVanta();">-destroy-</button>
+        </li>
+        <li>
+          <button @click="this.$refs.vantaBackground.setupVanta();">-setup-</button>
+        </li>
+      </ul>
+    </div>
+
   </div>
 </template>
 
@@ -174,9 +188,11 @@ The component provides the following methods:
 - **setupVanta(effect, options)**: Sets up Vanta.js with the specified effect and options.
 - **destroyVanta()**: Destroys the Vanta.js instance.
 - **changeOptions(newOptions)**: Changes the effect options.
-- **changeEffect(newEffect, newOptions)**: Changes the Vanta.js effect and/or options.
+- **changeEffect(newEffect, newOptions)**: Changes the Vanta.js effect and options.
 - **resizeEffect()**: Not entirely clear how this works yet, but it's available.
 
 ## Notes
 
-- If you need to completely destroy everything, you will need to manually delete the scripts from the DOM. The possible script IDs are 'p5', 'three', and `${effect}-vanta`.
+- I found inconsistent behavior when using the `changeEffect` method with certain Vanta.js effects. This may be an issue with the Vanta.js library itself.
+- If you want to completely destroy everything for some reasom, not just the background instace, you can delete the scripts from the DOM. The possible script IDs are 'p5', 'three', and the specific `${effect}-vanta` effect(s) you've intialized.
+  
